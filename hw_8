@@ -1,0 +1,72 @@
+-- Task 1
+ -- CREATE TABLE employees (
+	-- id INT PRIMARY KEY,
+	-- name VARCHAR(50),
+	-- email VARCHAR(100),
+	-- birthday DATE
+-- );
+
+-- TASK 2
+-- insert into employees (id, name, email, birthday) values (1, 'Vincenty', 'vmelody0@msn.com', '2023/09/21');
+-- insert into employees (id, name, email, birthday) values (2, 'Archaimbaud', 'awaber1@who.int', '2023/11/11');
+-- insert into employees (id, name, email, birthday) values (3, 'Ester', 'eclemo2@goodreads.com', '2023/12/09');
+-- insert into employees (id, name, email, birthday) values (4, 'Katharine', 'kmccart3@elegantthemes.com', '2023/11/06');
+-- insert into employees (id, name, email, birthday) values (5, 'Dennie', 'dstrauss4@nsw.gov.au', '2023/10/13');
+-- insert into employees (id, name, email, birthday) values (6, 'Ellette', 'ecurphey5@timesonline.co.uk', '2023/09/25');
+-- insert into employees (id, name, email, birthday) values (7, 'Coralyn', 'canglin6@wp.com', '2023/07/05');
+-- insert into employees (id, name, email, birthday) values (8, 'Frank', 'fbrice7@unesco.org', '2023/06/09');
+-- insert into employees (id, name, email, birthday) values (9, 'Corie', 'ccrockett8@phpbb.com', '2023/10/07');
+-- insert into employees (id, name, email, birthday) values (10, 'Dede', 'dtaffie9@is.gd', '2023/08/31');
+-- insert into employees (id, name, email, birthday) values (11, 'Devinne', 'dhealda@mit.edu', '2023/07/10');
+-- insert into employees (id, name, email, birthday) values (12, 'Pascal', 'pbratchellb@vinaora.com', '2023/09/23');
+-- insert into employees (id, name, email, birthday) values (13, 'Reinhold', 'rdeakinc@aol.com', '2024/01/24');
+-- insert into employees (id, name, email, birthday) values (14, 'Mercedes', 'mslined@webs.com', '2023/12/19');
+-- insert into employees (id, name, email, birthday) values (15, 'Orin', 'omccoishe@ebay.com', '2023/08/01');
+-- insert into employees (id, name, email, birthday) values (16, 'Pepita', 'pseeneyf@artisteer.com', '2023/11/09');
+-- insert into employees (id, name, email, birthday) values (17, 'Artus', 'arylettg@mozilla.com', '2023/04/09');
+-- insert into employees (id, name, email, birthday) values (18, 'Ashla', 'aserviceh@google.com', '2024/01/07');
+-- insert into employees (id, name, email, birthday) values (19, 'Agnola', 'abernardonii@shop-pro.jp', '2024/02/16');
+-- insert into employees (id, name, email, birthday) values (20, 'Zita', 'zmaystonej@flickr.com', '2024/01/05');
+-- insert into employees (id, name, email, birthday) values (21, 'Rollo', 'rbleslik@storify.com', '2023/03/28');
+-- insert into employees (id, name, email, birthday) values (22, 'Francisco', 'fcodronl@businessinsider.com', '2024/02/03');
+-- insert into employees (id, name, email, birthday) values (23, 'Mick', 'mgilmanm@yelp.com', '2023/04/07');
+-- insert into employees (id, name, email, birthday) values (24, 'Roselin', 'rrougen@altervista.org', '2024/03/06');
+-- insert into employees (id, name, email, birthday) values (25, 'Lefty', 'lcullo@shareasale.com', '2023/04/20');
+-- insert into employees (id, name, email, birthday) values (26, 'Melosa', 'mperillop@miitbeian.gov.cn', '2023/03/31');
+-- insert into employees (id, name, email, birthday) values (27, 'Gabriellia', 'gblodgettq@histats.com', '2023/11/06');
+-- insert into employees (id, name, email, birthday) values (28, 'Celestia', 'csinnocker@theguardian.com', '2023/11/12');
+-- insert into employees (id, name, email, birthday) values (29, 'Kalil', 'ktredgers@buzzfeed.com', '2023/04/16');
+-- insert into employees (id, name, email, birthday) values (30, 'Pepillo', 'pbatrimt@cdc.gov', '2024/02/29');
+-- insert into employees (id, name, email, birthday) values (31, 'Jocelin', 'jhayballu@vinaora.com', '2024/03/02');
+-- insert into employees (id, name, email, birthday) values (32, 'Gaylord', 'gjoriov@reddit.com', '2023/09/17');
+-- insert into employees (id, name, email, birthday) values (33, 'Winn', 'wtedorenkow@virginia.edu', '2023/07/15');
+-- insert into employees (id, name, email, birthday) values (34, 'Clari', 'cbilhamx@google.nl', '2023/11/12');
+-- insert into employees (id, name, email, birthday) values (35, 'Carmel', 'cmaddisony@thetimes.co.uk', '2023/03/26');
+-- insert into employees (id, name, email, birthday) values (36, 'Tracy', 'tsingersz@adobe.com', '2024/01/04');
+-- insert into employees (id, name, email, birthday) values (37, 'Prissie', 'ptieman10@gizmodo.com', '2023/05/18');
+-- insert into employees (id, name, email, birthday) values (38, 'Darb', 'dcraxford11@woothemes.com', '2023/09/02');
+-- insert into employees (id, name, email, birthday) values (39, 'Gasparo', 'gtrase12@ovh.net', '2023/08/01');
+-- insert into employees (id, name, email, birthday) values (40, 'Winona', 'wgoodhand13@netscape.com', '2023/07/08');
+-- insert into employees (id, name, email, birthday) values (41, 'Zarla', 'zentwisle14@abc.net.au', '2024/01/08');
+-- insert into employees (id, name, email, birthday) values (42, 'Chas', 'cbenoi15@globo.com', '2023/06/11');
+-- insert into employees (id, name, email, birthday) values (43, 'Bob', 'bastbury16@nymag.com', '2023/05/05');
+-- insert into employees (id, name, email, birthday) values (44, 'Loella', 'lkrook17@google.com.au', '2023/04/24');
+-- insert into employees (id, name, email, birthday) values (45, 'Fonzie', 'fkennelly18@1und1.de', '2023/06/28');
+-- insert into employees (id, name, email, birthday) values (46, 'Brunhilde', 'bmainland19@i2i.jp', '2023/05/12');
+-- insert into employees (id, name, email, birthday) values (47, 'Jerrome', 'jarmitt1a@go.com', '2023/04/23');
+-- insert into employees (id, name, email, birthday) values (48, 'Waldon', 'wgoodlip1b@hexun.com', '2023/04/07');
+-- insert into employees (id, name, email, birthday) values (49, 'Donal', 'dhayles1c@sphinn.com', '2023/10/01');
+-- insert into employees (id, name, email, birthday) values (50, 'Colleen', 'ckmiec1d@smugmug.com', '2023/11/19');
+
+-- TASK 3
+-- UPDATE employees
+-- 	SET name = 'KADER',
+-- 	email='kader@gmail.com',
+-- 	birthday='1999/03/01'
+-- WHERE name = 'Bob';
+
+-- task 4
+--  DELETE from employees
+--  WHERE  id=10;
+
+select * from employees
